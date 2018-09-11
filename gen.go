@@ -8,11 +8,11 @@ import (
 	"sync"
 	"testing"
 
-	ci "github.com/libp2p/go-libp2p-crypto"
-	peer "github.com/libp2p/go-libp2p-peer"
-	ptest "github.com/libp2p/go-libp2p-peer/test"
-	ma "github.com/multiformats/go-multiaddr"
-	mh "github.com/multiformats/go-multihash"
+	ci "github.com/dms3-p2p/go-p2p-crypto"
+	peer "github.com/dms3-p2p/go-p2p-peer"
+	ptest "github.com/dms3-p2p/go-p2p-peer/test"
+	ma "github.com/dms3-mft/go-multiaddr"
+	mh "github.com/dms3-mft/go-multihash"
 )
 
 // ZeroLocalTCPAddress is the "zero" tcp local multiaddr. This means:
